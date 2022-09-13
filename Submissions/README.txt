@@ -1,0 +1,1 @@
+All artifacts created by team that will eventually be turned over to sponsor.
