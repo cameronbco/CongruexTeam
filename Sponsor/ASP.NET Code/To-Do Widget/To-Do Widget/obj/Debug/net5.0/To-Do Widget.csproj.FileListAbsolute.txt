@@ -1,0 +1,28 @@
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\appsettings.json
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\To-Do Widget.exe
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\To-Do Widget.deps.json
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\To-Do Widget.runtimeconfig.json
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\To-Do Widget.runtimeconfig.dev.json
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\To-Do Widget.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\To-Do Widget.pdb
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.csproj.AssemblyReference.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.AssemblyInfoInputs.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.AssemblyInfo.cs
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.csproj.CoreCompileInputs.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\scopedcss\bundle\To-Do Widget.styles.css
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\staticwebassets\To-Do Widget.StaticWebAssets.Manifest.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.RazorTargetAssemblyInfo.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.csproj.CopyComplete
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\refint\To-Do Widget.dll
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.pdb
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\To-Do Widget.genruntimeconfig.cache
+C:\Users\cambo\Documents\GitHub\CongruexTeam\Sponsor\ASP.NET Code\To-Do Widget\To-Do Widget\obj\Debug\net5.0\ref\To-Do Widget.dll
