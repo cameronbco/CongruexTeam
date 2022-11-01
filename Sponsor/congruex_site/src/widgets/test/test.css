@@ -1,0 +1,17 @@
+.dropdown {
+    margin-left: 1rem;
+
+    color: var(--congruex_red);
+    visibility: hidden;
+}
+
+.dropdown.closed {
+    visibility: hidden;
+}
+.dropdown.open {
+    visibility: visible;
+}
+
+.dropdown_container {
+    overflow: hidden;
+}

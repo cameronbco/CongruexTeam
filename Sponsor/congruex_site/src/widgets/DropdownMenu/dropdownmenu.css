@@ -1,0 +1,79 @@
+.menu{
+    width: 260px;
+    flex-shrink: 0;
+    background-color: rgba(22, 22, 22, 1);
+    height: 100%;
+    overflow: auto;
+}
+
+.menu-item{
+    padding: .75rem 1rem;
+    display: block;
+    transition: background-color .15s;
+    border-radius: 5px;
+}
+
+.menu-title{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-evenly;
+    margin: 1px;
+    align-items: center;
+}
+.menu-title span i{
+    display: inline-block;
+    width: 1.5em;
+    cursor: pointer;
+}
+
+.menu-title p{
+    padding: .15rem .25rem;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+}
+.menu-title p:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: .4rem;
+}
+.menu-title .toggle-btn{
+    cursor: pointer;
+    transition: transform .3s;
+}
+.menu-item.open > .menu-title .toggle-btn{
+    transform: rotate(180deg);
+}
+.menu-content{
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+    white-space: pre-line;
+    margin: 4px;
+}
+.menu-item.open > .menu-content{
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-item.plain{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+.menu-item.plain:hover{
+    text-decoration: underline;
+}
+.menu-item.plain i{
+    display: inline-block;
+    width: 1.7em;
+}
+
+.menu-content-list p{
+    padding: .1rem .6rem;
+}
+.menu-content-list p:hover{
+    border-radius: .4rem;
+    background-color: lightgray;
+}
