@@ -17,7 +17,7 @@ export default function Test() {
 
     return (
         <div ref={btnRef} className='dropdown_container' onClick={() => setIsOpen(!isOpen)}>
-            <button>All Options</button>
+            <button className="hover:cursor-pointer rounded-xl p-1 hover:bg-blue-200">All Options</button>
             <div className={'dropdown ' + (isOpen ? 'closed': 'open')}>
                 <a href="#">Option 1</a>
                 <a href="#">Option 2</a>

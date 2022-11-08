@@ -48,7 +48,7 @@ export default class Counter extends React.Component {
     render() {
         return (
             <div>
-                <h1 className='gradient__text'>Clicks: {this.state.count}</h1>
+                <h1 className='gradient__text text-3xl font-bold'>Clicks: {this.state.count}</h1>
                 <button onClick={this.getAddOne}>Plus</button>
                 <button onClick={this.getMinusOne}>Minus</button>
                 <button onClick={this.getReset}>Reset</button>

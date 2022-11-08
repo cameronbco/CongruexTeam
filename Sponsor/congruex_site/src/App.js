@@ -1,6 +1,6 @@
 import './App.css';
 import {  Navigate, Route, Routes } from "react-router-dom";
-import { Navbar, Navbar_better } from './components';
+import { Banner, Navbar, Navbar_better } from './components';
 import { Homepage, Secondpage, NotFound, Contact, Support, SignIn, Createpage, Editor } from './pages';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Banner />
       <div className='App'>
         <Routes>
           <Route path='*' element={<NotFound />} />

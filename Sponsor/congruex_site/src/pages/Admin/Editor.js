@@ -1,6 +1,9 @@
 import React from 'react'
 import './admin.css';
 import items from '../../data/menu.json'
+import { ThemeSwitcher } from '../../components';
+import { Widget_Container } from '../../widgets';
+import { BsMoon } from 'react-icons/bs';
 // import { Link } from 'react-router-dom'
 
 function Editor_Menu() {
@@ -15,8 +18,8 @@ function Editor_Menu_Item({ item }) {
     if (item.childrens) {
         return (
             <>
-                <div className='list-item open'>
-                    <div className='list-title'>
+                <div className='list-none list-item open'>
+                    <div className='list-title text-2xl font-bold'>
                         <h3>
                             { item.title }
                         </h3>
@@ -41,12 +44,8 @@ function Editor_Menu_Item({ item }) {
 function Editor() {
   return (
     <div className='App'>
-        <div className='widget_container'>
-            <div className='widget_container_banner'>
-                Page Editor
-            </div>
-            <Editor_Menu />
-        </div>
+        <Widget_Container name='Page Editor' children={<Editor_Menu />} />
+        <Widget_Container name='Theme Switcher' children={<ThemeSwitcher />} />
     </div>
   )
 }

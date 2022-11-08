@@ -1,0 +1,12 @@
+.banner_container {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: var(--congruex_red);
+    color: white;
+    padding: 0.7rem;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}

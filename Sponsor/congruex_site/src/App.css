@@ -85,6 +85,7 @@ a {
   flex-direction: column;
   padding: 0;
   margin: 5px 10px;
+  margin-top: 10px;
   width: 542px;
 }
 .widget_container_banner {
