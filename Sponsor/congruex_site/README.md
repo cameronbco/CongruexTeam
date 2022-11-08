@@ -1,7 +1,7 @@
 # Getting Started with React Site
 
-Required packages to get started
-## `npm i uuid react-icons react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material`
+Install required packages to get started with:
+## `npm install`
 
 In the project directory, you can run:
 
