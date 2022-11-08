@@ -8,5 +8,10 @@ export default function NotFound() {
             navigate("/")
         }, 3000)
     }, [])
-    return <h1 className='container' style={{color: "white"}}>Not Found</h1>
+    return (
+        <>
+            <h1 className='container' style={{color: "white", padding: "3rem 0 0.5rem 0"}}>Not Found</h1>
+            <h3 className='container' style={{color: "white"}}>Redirecting...</h3>
+        </>
+    )
 }

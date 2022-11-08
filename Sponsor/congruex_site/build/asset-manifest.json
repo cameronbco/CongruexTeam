@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.793edeec.css",
+    "main.js": "/static/js/main.5fdda806.js",
+    "static/media/congruex_logo.png": "/static/media/congruex_logo.4404d84fd137dee72dfc.png",
+    "index.html": "/index.html",
+    "main.793edeec.css.map": "/static/css/main.793edeec.css.map",
+    "main.5fdda806.js.map": "/static/js/main.5fdda806.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.793edeec.css",
+    "static/js/main.5fdda806.js"
+  ]
+}

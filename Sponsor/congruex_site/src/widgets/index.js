@@ -4,3 +4,4 @@ export { default as Stock } from './stock/Stock';
 export { default as TodoApp } from './todo/TodoApp';
 export { default as DropdownMenu } from './DropdownMenu/DropdownMenu';
 export { default as Test } from './test/test';
+export { default as Widget_Container} from './widget_container';

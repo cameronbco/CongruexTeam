@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './navbar.css';
 import { RiCloseLine, RiMenuLine } from 'react-icons/ri';
 import congruex_logo from '../../assets/congruex_logo.png';
+import { UseComponentVisible } from '../index';
 // BEM -> Block Element Modifier
 
 const Menu = () => (
@@ -26,18 +27,20 @@ const Menu = () => (
 //   </>
 // )
 
-const Navbar = () => {
+const Navbar_better = () => {
+  const { btnRef, isComponentVisible, setIsComponentVisible } = UseComponentVisible(true);
   const [toggleMenu, setToggleMenu] = useState(false);
-  const navbarRef = useRef();
+  const navbarRef = useRef(null);
+
   useEffect(() => {
-    const closeDropdown = e => {
-        if (!navbarRef.current.contains(e.target)) {
-          setToggleMenu(true);
-        }
-    };
-    document.body.addEventListener('click', closeDropdown);
-    return () => document.body.removeEventListener('click', closeDropdown);
+    document.body.addEventListener('click', handleClickOutside);
+    return () => document.body.removeEventListener('click', handleClickOutside);
   }, []);
+  const handleClickOutside = e => {
+    if (navbarRef.current && !navbarRef.current.contains(e.target)) {
+      setToggleMenu(false);
+    }
+  }
 
   return (
     <div className='navbar'>
@@ -52,13 +55,15 @@ const Navbar = () => {
       <div className='gpt3__navbar-sign'>
         <button type='button'><Link to='/sign_in'>Sign in</Link></button>
       </div>
-      <div className='gpt3__navbar-menu'>
-        {toggleMenu
-          ? <RiCloseLine  size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenuLine  size={27} onClick={() => setToggleMenu(true)} />
+      <div className='navbar-menu' ref={navbarRef} onClick={() => setIsComponentVisible(!isComponentVisible)}>
+
+        {!isComponentVisible
+          ? <RiCloseLine  size={27} onClick={() => setIsComponentVisible(true)} />
+          : <RiMenuLine  size={27} onClick={() => setIsComponentVisible(false)} />
         }
-        {toggleMenu && (
-          <div className='gpt3__navbar-menu_container scale-up-center'>
+        {isComponentVisible && (
+
+          <div className='navbar-menu_container scale-up-center'>
             <div className='gpt3__navbar-menu_container-links' >
               <Menu />
               <div className='gpt3__navbar-menu_container-links-sign'>
@@ -72,4 +77,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
+export default Navbar_better;

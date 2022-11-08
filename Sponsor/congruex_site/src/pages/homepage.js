@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import { Clock, DropdownMenu, Test } from '../widgets';
+import { Clock, DropdownMenu, Test, Widget_Container } from '../widgets';
 
 export default function homepage() {
   return (
@@ -8,12 +8,9 @@ export default function homepage() {
       <div className='gradient__text'>
         <Clock/>
       </div>
-      <div className='widget_container'>
-        <DropdownMenu /> 
-      </div>
-      <div className='widget_container'>
-        <Test />
-      </div>
+      
+      <Widget_Container name='Links' children={<DropdownMenu />} />
+      <Widget_Container name='Test' children={<Test />} />
     </div>
   )
 }

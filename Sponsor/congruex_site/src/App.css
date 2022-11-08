@@ -16,6 +16,8 @@
   --congruex_black: #1E1B1C;
   --congruex_gray: #21303B;
   --congruex_red: #C22134;
+  background-color: var(--congruex_gray);
+
   height: 100%;
 }
 
@@ -73,7 +75,7 @@ a {
 }
 
 .widget_container {
-  border: 1px solid #EB4D4D;
+  border: 3px solid var(--congruex_red);
   background-color: #fff;
   color: black;
   display: flex;
@@ -81,10 +83,22 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
-  margin: 10px;
+  padding: 0;
+  margin: 5px 10px;
   width: 542px;
 }
+.widget_container_banner {
+  border: 1px solid var(--congruex_red);
+  background-color: var(--congruex_red);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.25rem;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
 
 @media screen and (max-width: 700px) {
   .section__padding {

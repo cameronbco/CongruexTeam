@@ -1,6 +1,6 @@
 import React from 'react'
 import DropdownMenuItem from './DropdownMenuItem'
-import items from './menu.json'
+import items from '../../data/menu.json'
 
 export default function DropdownMenu() {
   return (

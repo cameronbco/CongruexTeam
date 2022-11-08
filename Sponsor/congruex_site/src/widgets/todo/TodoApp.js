@@ -39,8 +39,7 @@ export default function TodoApp() {
     }
 
     return(
-        <div>
-            <Typography style={{ padding: 16 }} variant="h1" className="gradient__text">Todo List</Typography>
+        <>
             <TodoForm addTodo={addTodo} />
             <TodoList
                 todos={todos}
@@ -48,6 +47,6 @@ export default function TodoApp() {
                 removeTodo={removeTodo}
                 className="gradient__text"
             />
-        </div>
+        </>
     )
 }

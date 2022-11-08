@@ -2,13 +2,13 @@ import { useEffect, useRef, useState } from "react";
 import './test.css';
 
 export default function Test() {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
     const btnRef = useRef();
 
     useEffect(() => {
         const closeDropdown = e => {
             if (!btnRef.current.contains(e.target)) {
-                setIsOpen(false);
+                setIsOpen(true);
             }
         };
         document.body.addEventListener('click', closeDropdown);
@@ -16,8 +16,8 @@ export default function Test() {
     }, []);
 
     return (
-        <div ref={btnRef} className='dropdown_container'>
-            <button onClick={() => setIsOpen(!isOpen)}>All Options</button>
+        <div ref={btnRef} className='dropdown_container' onClick={() => setIsOpen(!isOpen)}>
+            <button>All Options</button>
             <div className={'dropdown ' + (isOpen ? 'closed': 'open')}>
                 <a href="#">Option 1</a>
                 <a href="#">Option 2</a>

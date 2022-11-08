@@ -1,6 +1,6 @@
 [
     {
-        "title": "One",
+        "title": "Help",
         "childrens": [
             {
                 "title": "Support",
@@ -17,7 +17,7 @@
         ]
     },
     {
-        "title": "Two",
+        "title": "Getting Started",
         "childrens": [
             {
                 "title": "Set up",
@@ -30,15 +30,24 @@
         ]
     },
     {
-        "title": "Three",
+        "title": "Fake Section",
         "childrens": [
             {
-                "title": "Set up",
-                "path": "/set_up"
+                "title": "Might work",
+                "path": "/not a page"
             },
             {
-                "title": "Second page",
-                "path": "/second"
+                "title": "Faulty link",
+                "path": "/bad_link"
+            }
+        ]
+    },
+    {
+        "title": "Admin Only",
+        "childrens": [
+            {
+                "title": "Editor",
+                "path": "/editor_page"
             }
         ]
     }

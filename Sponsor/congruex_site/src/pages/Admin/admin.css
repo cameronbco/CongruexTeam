@@ -1,0 +1,70 @@
+
+.list-item{
+    padding: .75rem 1rem;
+    transition: background-color .15s;
+    border-radius: 5px;
+}
+
+.list-title{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-evenly;
+    margin: 1px;
+    align-items: center;
+}
+.list-title span i{
+    display: inline-block;
+    width: 1.5em;
+    cursor: pointer;
+}
+
+.list-title p{
+    padding: .15rem .25rem;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+}
+.list-title p:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: .4rem;
+}
+.list-title .toggle-btn{
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.list-content{
+    padding-top: .25em;
+    height: 0;
+    /* overflow: hidden; */
+    white-space: pre-line;
+    margin: 4px;
+}
+
+
+.list-item.plain{
+color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+.list-item.plain:hover{
+    text-decoration: underline;
+}
+.list-item.plain i{
+    display: inline-block;
+    width: 1.7em;
+}
+
+.list-content-list p{
+    padding: .1rem .6rem;
+}
+.list-content-list p:hover{
+    border-radius: .4rem;
+    background-color: lightgray;
+}
+.list-item.open > .list-content{
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
