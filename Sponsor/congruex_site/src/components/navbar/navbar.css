@@ -1,0 +1,222 @@
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.75rem 1.5rem;
+}
+
+.gpt3__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.gpt3__navbar-links p {
+    padding: 0.5px 5px;
+}
+.gpt3__navbar-links p:hover {
+    background-color: lightgray; 
+}
+
+.gpt3__navbar-links_logo {
+    margin-right: 2rem;
+}
+.gpt3__navbar-links_logo img {
+    /* width: 62px; */
+    height: 42px;
+}
+/* .gpt3__navbar-menu_container.open {
+    visibility: visible;
+}
+.gpt3__navbar-menu_container.closed {
+    visibility: hidden;
+} */
+.gpt3__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* changes style for each button either when it's in dropdown menu or not */
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
+    color: var(--congruex_red);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+
+    border-radius: 0.2rem;
+}
+.gpt3__navbar-menu_container p:hover {
+    background-color: lightgray;
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    background: var(--congruex_red);
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.gpt3__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+    color: var(--congruex_red);
+    /* overflow: hidden; */
+}
+.gpt3__navbar-menu svg {
+    cursor: pointer;
+}
+
+/* change appearance for dropdown menu */
+.gpt3__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #fff;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    /* visibility: hidden; */
+}
+.gpt3__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.gpt3__navbar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+    .navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 20px;
+    }
+    .navbar-menu_container {
+        top: 20px;
+    }
+    .gpt3__navbar-menu_container-links-sign {
+        display: block;
+    }
+}
+
+.navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #fff;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    /* visibility: hidden; */
+}
+/* .navbar-menu_container.open {
+    visibility: visible;
+}
+.navbar-menu_container.closed {
+    visibility: hidden;
+} */
+.navbar-menu {
+    margin-left: 1rem;
+
+    position: relative;
+    color: var(--congruex_red);
+    overflow: hidden;
+}
+.navbar-menu svg {
+    cursor: pointer;
+}
+.navbar-menu button {
+    padding: 0.5rem 1rem;
+    background: var(--congruex_red);
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.navbar-menu_container svg {
+    cursor: pointer;
+}
+.navbar-menu p {
+    color: var(--congruex_red);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Help",
+        "childrens": [
+            {
+                "title": "Support",
+                "path": "/support"
+            },
+            {
+                "title": "Contact",
+                "path": "/contact"
+            },
+            {
+                "title": "Blank Link"
+            }
+
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "childrens": [
+            {
+                "title": "Set up",
+                "path": "/set_up"
+            },
+            {
+                "title": "Second page",
+                "path": "/second"
+            }
+        ]
+    },
+    {
+        "title": "Fake Section",
+        "childrens": [
+            {
+                "title": "Might work",
+                "path": "/not a page"
+            },
+            {
+                "title": "Faulty link",
+                "path": "/bad_link"
+            }
+        ]
+    },
+    {
+        "title": "Admin Only",
+        "childrens": [
+            {
+                "title": "Editor",
+                "path": "/editor_page"
+            }
+        ]
+    }
+]
