@@ -24,9 +24,11 @@ namespace To_Do_Widget.DTO
 
                _requests.Add(new TodoListItemRequest()
                 {
-                    Id = GetNextId(),
+                    //Id = GetNextId(),
+                    title = "word",
+                    childrens = GetChildren(),
                     IsComplete = false,
-                    Name = "Do Demo of c# Web API"
+                    //Name = "Do Demo of c# Web API"
                 });
 
 
@@ -40,13 +42,15 @@ namespace To_Do_Widget.DTO
 
 
 
-       public static TodoListItemRequest CreateTodoListItemRequest(string name, bool isComplete)
+       public static TodoListItemRequest CreateTodoListItemRequest(string title, List<child> childrens, bool isComplete)
         {
             var request = new TodoListItemRequest()
             {
-                Id = GetNextId(),
+                //Id = GetNextId(),
+                title = title,
+                childrens = childrens,
                 IsComplete = isComplete,
-                Name = name
+                //Name = "Do Demo of c# Web API"
             };
 
 
@@ -67,6 +71,14 @@ namespace To_Do_Widget.DTO
 
 
            return _nextRequestId;
+        }
+
+        private static List<child> GetChildren()
+        {
+            List<child> children = new List<child>();
+            children.Add(new child { title = "first_title", path = "/path" });
+
+            return children;
         }
     }
 }

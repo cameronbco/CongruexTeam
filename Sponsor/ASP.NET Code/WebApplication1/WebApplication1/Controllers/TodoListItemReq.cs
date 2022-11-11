@@ -27,7 +27,7 @@ namespace To_Do_Widget.Controllers
         [HttpPost]
         public async Task<ActionResult<TodoListItemRequest>> PostTodoListItem(TodoListItemRequest request)
         {
-            TodoListItemRequest item = FakeData.CreateTodoListItemRequest(request.Name, request.IsComplete);
+            TodoListItemRequest item = FakeData.CreateTodoListItemRequest(request.title, request.childrens, request.IsComplete);
             return item;
         }
     }
