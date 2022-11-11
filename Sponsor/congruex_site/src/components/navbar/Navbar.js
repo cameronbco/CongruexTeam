@@ -9,6 +9,9 @@ const Menu = () => (
   <p><Link to='/home'>Home</Link></p>
   <p><Link to='/second'>Second page</Link></p>
   <p><Link to='/editor_page'>Admin</Link></p>
+  <p><Link to='/chandler_page'>Chandler</Link></p>
+  <p><Link to='/shane_page'>Shane</Link></p>
+  <p><Link to='/ryan_page'>Ryan</Link></p>
   </>
 )
 
