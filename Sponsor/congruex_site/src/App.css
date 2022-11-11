@@ -75,7 +75,7 @@ a {
 }
 
 .widget_container {
-  border: 3px solid var(--congruex_red);
+  border: 1.5px solid var(--congruex_red);
   background-color: #fff;
   color: black;
   display: flex;

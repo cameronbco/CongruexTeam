@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import './navbar.css';
 import { RiCloseLine, RiMenuLine } from 'react-icons/ri';
 import congruex_logo from '../../assets/congruex_logo.png';
-// BEM -> Block Element Modifier
 
 const Menu = () => (
   <>
@@ -12,19 +11,6 @@ const Menu = () => (
   <p><Link to='/editor_page'>Admin</Link></p>
   </>
 )
-
-// const Menu = () => (
-//   <>
-//   <ul>
-//     <li>
-//       <Link to="/">Home</Link>
-//     </li>
-//     <li>
-//       <Link to="/second">Second page</Link>
-//     </li>
-//   </ul>
-//   </>
-// )
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

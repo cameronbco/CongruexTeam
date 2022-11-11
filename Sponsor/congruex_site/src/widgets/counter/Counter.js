@@ -47,11 +47,11 @@ export default class Counter extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='space-x-2'>
                 <h1 className='gradient__text text-3xl font-bold'>Clicks: {this.state.count}</h1>
-                <button onClick={this.getAddOne}>Plus</button>
-                <button onClick={this.getMinusOne}>Minus</button>
-                <button onClick={this.getReset}>Reset</button>
+                <button className='hover:bg-blue-400 border border-blue-100 rounded px-1 py-0.2 shadow' onClick={this.getAddOne}>Plus</button>
+                <button className='hover:bg-blue-400 border border-blue-100 rounded px-1 py-0.2 shadow' onClick={this.getMinusOne}>Minus</button>
+                <button className='hover:bg-blue-400 border border-blue-100 rounded px-1 py-0.2 shadow' onClick={this.getReset}>Reset</button>
             </div>
         )
     }

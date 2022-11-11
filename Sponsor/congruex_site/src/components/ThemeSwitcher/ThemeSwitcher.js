@@ -12,7 +12,8 @@ const ThemeSwitcher = () => {
         <div>
             {storedTheme ? (
                 <>
-                    <button>Button here</button>
+                    <>Button here</>
+                    
                 </>
             ): (
                 <div className='btn-container space-x-20 py-2'>

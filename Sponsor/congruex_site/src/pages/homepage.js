@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css';
+import { UseComponentVisible } from '../hooks';
 import { Clock, DropdownMenu, Test, Widget_Container } from '../widgets';
 
 export default function homepage() {
@@ -10,8 +11,8 @@ export default function homepage() {
       </div>
       
       <Widget_Container name='Links' children={<DropdownMenu />} />
-      <Widget_Container name='Test' children={<Test />} />
 
+      <UseComponentVisible name='viewable_test' children={<Widget_Container name='Test' children={<Test />} />} />
     </div>
   )
 }
