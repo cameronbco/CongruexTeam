@@ -21,7 +21,7 @@ function App() {
           <Route path='/create_page' element={<Createpage />} />
           <Route path='/editor_page' element={<Editor />} />
           <Route path='/chandler_page' element={<Chandler_Page />} />
-          <Route path='/Shane_page' element={<Shane_Page />} />
+          <Route path='/shane_page' element={<Shane_Page />} />
           <Route path='/ryan_page' element={<Ryan_Page />} />
         </Routes>
 
