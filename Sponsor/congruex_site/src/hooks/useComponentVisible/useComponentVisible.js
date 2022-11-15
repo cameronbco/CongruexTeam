@@ -1,21 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
-function UseComponentVisible({ name = 'default_viewable_state', children }) {
-    const visible_state = JSON.parse(localStorage.getItem(name)) || false;
-    const [isComponentVisible, setIsComponentVisible] = useState(visible_state);
-
-    function toggleComponent() {
-        setIsComponentVisible(!isComponentVisible);
-    }
-    var btn = isComponentVisible ? "Hide" : "Show"
+// gives option to toggle component visibility
+// need "id" provided to remember each state, otherwise default is used
+// wrap any component inside function to add visibility id & logic
+function UseComponentVisible({ id = 'default-viewable-state', children }) {
+    // default visibility is set to false
+    const [isComponentVisible, setIsComponentVisible] = useState(() => {
+        return JSON.parse(localStorage.getItem(id)) || false;
+    });
 
     useEffect(() => {
-        localStorage.setItem(name, isComponentVisible);
+        localStorage.setItem(id, isComponentVisible);
     },[isComponentVisible]);
 
     return (
         <div>
-            <button onClick={toggleComponent} className='text-orange-400 hover:bg-white hover:text-black rounded-md p-1'>{btn}</button>
             {isComponentVisible && children}
         </div>
     );

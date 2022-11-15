@@ -1,6 +1,6 @@
 import React from 'react'
 
-function chandler_page() {
+function Chandler_Page() {
   return (
     <div className='text-orange-400 pt-4'>
         chandler
@@ -8,4 +8,4 @@ function chandler_page() {
   )
 }
 
-export default chandler_page
+export default Chandler_Page

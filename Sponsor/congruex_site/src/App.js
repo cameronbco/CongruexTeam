@@ -1,13 +1,14 @@
 import './App.css';
 import {  Navigate, Route, Routes } from "react-router-dom";
 import { Banner, Navbar, Navbar_better } from './components';
+import { UseComponentVisible } from './hooks';
 import { Homepage, Secondpage, NotFound, Contact, Support, SignIn, Createpage, Editor, Chandler_Page, Shane_Page, Ryan_Page } from './pages';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Banner />
+      <UseComponentVisible id='banner-view' children={<Banner />} />
       <div className='App'>
         <Routes>
           <Route path='*' element={<NotFound />} />

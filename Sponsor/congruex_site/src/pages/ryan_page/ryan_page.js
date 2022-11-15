@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ryan_page() {
+function Ryan_Page() {
   return (
     <div className='text-orange-400 pt-4'>
-        ryan
+      Nothing here
     </div>
   )
 }
 
-export default ryan_page
+export default Ryan_Page;

@@ -5,7 +5,7 @@ import { TodoApp, Counter, Widget_Container } from '../widgets'
 export default function secondpage() {
   return (
     <div className='App'>
-      <UseComponentVisible name='todo-view' children={<Widget_Container name='Todo List' children={<TodoApp />} />} />
+      <UseComponentVisible id='homepage-todo' children={<Widget_Container name='Todo List' children={<TodoApp />} />} />
       <Widget_Container name='Click Counter'>
         <Counter counter_id="counter_1"/>
         <Counter counter_id="counter_2"/>

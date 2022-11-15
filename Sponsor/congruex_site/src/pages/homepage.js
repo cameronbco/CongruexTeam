@@ -1,18 +1,31 @@
 import React from 'react'
 import '../App.css';
+import { ComponentVisibilityModal } from '../components';
 import { UseComponentVisible } from '../hooks';
-import { Clock, DropdownMenu, Test, Widget_Container } from '../widgets';
+import { Clock, DropdownMenu, Test, TodoApp, Widget_Container } from '../widgets';
 
-export default function homepage() {
+export default function Homepage() {
+
   return (
-    <div className='App'>
-      <div className='gradient__text font-bold text-2xl'>
+    <div className='App w-full'>
+      <div className='gradient__text font-bold text-2xl p-1'>
         <Clock/>
       </div>
+      <Widget_Container name="Demo">
+        <div>
+          All the components are hidden by default, try turning them on by clicking "customize page"
+        </div>
+      </Widget_Container>
+      <ComponentVisibilityModal />
       
-      <Widget_Container name='Links' children={<DropdownMenu />} />
+      <UseComponentVisible id='link-view'>
+        <Widget_Container name='Links' children={<DropdownMenu />} />
+      </UseComponentVisible>
 
-      <UseComponentVisible name='viewable_test' children={<Widget_Container name='Test' children={<Test />} />} />
+      <UseComponentVisible id='test-view' children={<Widget_Container name='Test' children={<Test />} />} />
+      <UseComponentVisible id='homepage-todo'>
+        <Widget_Container name="todo" children={<TodoApp />} />
+      </UseComponentVisible>
     </div>
   )
 }

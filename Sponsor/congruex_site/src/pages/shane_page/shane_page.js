@@ -1,6 +1,6 @@
 import React from 'react'
 
-function shanepage() {
+function Shane_Page() {
   return (
     <div className='text-orange-400 pt-4'>
         shane
@@ -8,4 +8,4 @@ function shanepage() {
   )
 }
 
-export default shanepage
+export default Shane_Page

@@ -6,3 +6,4 @@
 export { default as Navbar } from './navbar/Navbar';
 export { default as Banner } from './banner/Banner';
 export { default as ThemeSwitcher } from './ThemeSwitcher/ThemeSwitcher';
+export { default as ComponentVisibilityModal } from './ComponentVisibilityModal/ComponentVisibilityModal';
