@@ -9,6 +9,20 @@
             "todoListId": 0,
             "title": "string",
             "description": "string"
+            },
+            {
+                "id": 1,
+                "isComplete": true,
+                "todoListId": 1,
+                "title": "test",
+                "description": "no meaning"
+            },
+            {
+                "id": 2,
+                "isComplete": true,
+                "todoListId": 2,
+                "title": "1",
+                "description": "3"
             }
         ]
     },
