@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import { ComponentVisibilityModal } from '../components';
 import { UseComponentVisible } from '../hooks';
-import { Clock, DropdownMenu, Test, TodoApp, Widget_Container } from '../widgets';
+import { Clock, DropdownMenu, Test, TodoApp, TodoDropdown, Widget_Container } from '../widgets';
 
 export default function Homepage() {
 
@@ -25,6 +25,9 @@ export default function Homepage() {
       <UseComponentVisible id='test-view' children={<Widget_Container name='Test' children={<Test />} />} />
       <UseComponentVisible id='homepage-todo'>
         <Widget_Container name="todo" children={<TodoApp />} />
+      </UseComponentVisible>
+      <UseComponentVisible id='need-todo'>
+        <Widget_Container name='Need To Do' children={<TodoDropdown />} />
       </UseComponentVisible>
     </div>
   )

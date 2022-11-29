@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": "string",
+        "todoListItems": [
+            {
+            "id": 0,
+            "isComplete": false,
+            "todoListId": 0,
+            "title": "string",
+            "description": "string"
+            },
+            {
+                "id": 1,
+                "isComplete": true,
+                "todoListId": 1,
+                "title": "test",
+                "description": "no meaning"
+            },
+            {
+                "id": 2,
+                "isComplete": true,
+                "todoListId": 2,
+                "title": "1",
+                "description": "3"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "second string",
+        "todoListItems": [
+            {
+            "id": 0,
+            "isComplete": true,
+            "todoListId": 0,
+            "title": "two string",
+            "description": "dos string"
+            }
+        ]
+    }
+]
