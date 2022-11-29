@@ -57,8 +57,6 @@ namespace To_Do_Widget.DTO
 
            _requests.Add(request);
 
-
-
            return request;
         }
 
